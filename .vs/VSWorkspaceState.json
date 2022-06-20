@@ -2,8 +2,9 @@
   "ExpandedNodes": [
     "",
     "\\ContosoUniversity",
-    "\\ContosoUniversity\\ContosoUniversity"
+    "\\ContosoUniversity\\ContosoUniversity",
+    "\\ContosoUniversity\\ContosoUniversity\\Pages"
   ],
-  "SelectedNode": "\\ContosoUniversity\\ContosoUniversity.sln",
+  "SelectedNode": "\\ContosoUniversity\\ContosoUniversity",
   "PreviewInSolutionExplorer": false
 }
