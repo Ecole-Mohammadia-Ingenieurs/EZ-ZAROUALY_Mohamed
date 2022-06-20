@@ -8,57 +8,121 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = ContosoUniversity
 build_property.RootNamespace = ContosoUniversity
-build_property.ProjectDir = C:\Users\Mohamed\Documents\.NET\EZ-ZAROUALY_Mohamed.NET\ContosoUniversity\ContosoUniversity\
+build_property.ProjectDir = C:\Users\Mohamed\Documents\.NET\MohammedAmineELABAYA_DotNet\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Mohamed\Documents\.NET\EZ-ZAROUALY_Mohamed.NET\ContosoUniversity\ContosoUniversity
+build_property.MSBuildProjectDirectory = C:\Users\Mohamed\Documents\.NET\MohammedAmineELABAYA_DotNet
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Mohamed/Documents/.NET/EZ-ZAROUALY_Mohamed.NET/ContosoUniversity/ContosoUniversity/Pages/Error.cshtml]
+[C:/Users/Mohamed/Documents/.NET/MohammedAmineELABAYA_DotNet/Pages/About.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWJvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mohamed/Documents/.NET/MohammedAmineELABAYA_DotNet/Pages/Courses/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291cnNlc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mohamed/Documents/.NET/MohammedAmineELABAYA_DotNet/Pages/Courses/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291cnNlc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mohamed/Documents/.NET/MohammedAmineELABAYA_DotNet/Pages/Courses/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291cnNlc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mohamed/Documents/.NET/MohammedAmineELABAYA_DotNet/Pages/Courses/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291cnNlc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mohamed/Documents/.NET/MohammedAmineELABAYA_DotNet/Pages/Courses/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291cnNlc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mohamed/Documents/.NET/MohammedAmineELABAYA_DotNet/Pages/Departments/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGVwYXJ0bWVudHNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mohamed/Documents/.NET/MohammedAmineELABAYA_DotNet/Pages/Departments/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGVwYXJ0bWVudHNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mohamed/Documents/.NET/MohammedAmineELABAYA_DotNet/Pages/Departments/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGVwYXJ0bWVudHNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mohamed/Documents/.NET/MohammedAmineELABAYA_DotNet/Pages/Departments/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGVwYXJ0bWVudHNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mohamed/Documents/.NET/MohammedAmineELABAYA_DotNet/Pages/Departments/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGVwYXJ0bWVudHNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mohamed/Documents/.NET/MohammedAmineELABAYA_DotNet/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Mohamed/Documents/.NET/EZ-ZAROUALY_Mohamed.NET/ContosoUniversity/ContosoUniversity/Pages/Index.cshtml]
+[C:/Users/Mohamed/Documents/.NET/MohammedAmineELABAYA_DotNet/Pages/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Mohamed/Documents/.NET/EZ-ZAROUALY_Mohamed.NET/ContosoUniversity/ContosoUniversity/Pages/Privacy.cshtml]
+[C:/Users/Mohamed/Documents/.NET/MohammedAmineELABAYA_DotNet/Pages/Instructors/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5zdHJ1Y3RvcnNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mohamed/Documents/.NET/MohammedAmineELABAYA_DotNet/Pages/Instructors/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5zdHJ1Y3RvcnNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mohamed/Documents/.NET/MohammedAmineELABAYA_DotNet/Pages/Instructors/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5zdHJ1Y3RvcnNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mohamed/Documents/.NET/MohammedAmineELABAYA_DotNet/Pages/Instructors/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5zdHJ1Y3RvcnNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mohamed/Documents/.NET/MohammedAmineELABAYA_DotNet/Pages/Instructors/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5zdHJ1Y3RvcnNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mohamed/Documents/.NET/MohammedAmineELABAYA_DotNet/Pages/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Mohamed/Documents/.NET/EZ-ZAROUALY_Mohamed.NET/ContosoUniversity/ContosoUniversity/Pages/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/Mohamed/Documents/.NET/MohammedAmineELABAYA_DotNet/Pages/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Mohamed/Documents/.NET/EZ-ZAROUALY_Mohamed.NET/ContosoUniversity/ContosoUniversity/Pages/Students/Create.cshtml]
+[C:/Users/Mohamed/Documents/.NET/MohammedAmineELABAYA_DotNet/Pages/Students/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3R1ZGVudHNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Mohamed/Documents/.NET/EZ-ZAROUALY_Mohamed.NET/ContosoUniversity/ContosoUniversity/Pages/Students/Delete.cshtml]
+[C:/Users/Mohamed/Documents/.NET/MohammedAmineELABAYA_DotNet/Pages/Students/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3R1ZGVudHNcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Mohamed/Documents/.NET/EZ-ZAROUALY_Mohamed.NET/ContosoUniversity/ContosoUniversity/Pages/Students/Details.cshtml]
+[C:/Users/Mohamed/Documents/.NET/MohammedAmineELABAYA_DotNet/Pages/Students/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3R1ZGVudHNcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Mohamed/Documents/.NET/EZ-ZAROUALY_Mohamed.NET/ContosoUniversity/ContosoUniversity/Pages/Students/Edit.cshtml]
+[C:/Users/Mohamed/Documents/.NET/MohammedAmineELABAYA_DotNet/Pages/Students/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3R1ZGVudHNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Mohamed/Documents/.NET/EZ-ZAROUALY_Mohamed.NET/ContosoUniversity/ContosoUniversity/Pages/Students/Index.cshtml]
+[C:/Users/Mohamed/Documents/.NET/MohammedAmineELABAYA_DotNet/Pages/Students/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3R1ZGVudHNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Mohamed/Documents/.NET/EZ-ZAROUALY_Mohamed.NET/ContosoUniversity/ContosoUniversity/Pages/_ViewImports.cshtml]
+[C:/Users/Mohamed/Documents/.NET/MohammedAmineELABAYA_DotNet/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Mohamed/Documents/.NET/EZ-ZAROUALY_Mohamed.NET/ContosoUniversity/ContosoUniversity/Pages/_ViewStart.cshtml]
+[C:/Users/Mohamed/Documents/.NET/MohammedAmineELABAYA_DotNet/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Mohamed/Documents/.NET/EZ-ZAROUALY_Mohamed.NET/ContosoUniversity/ContosoUniversity/Pages/Shared/_Layout.cshtml]
+[C:/Users/Mohamed/Documents/.NET/MohammedAmineELABAYA_DotNet/Pages/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-bnnbnzjzeh
