@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "k2p4MGDu7j711f0zWaVzYtAf8E45lK4d36xZ0XZL6UdHkW1/05V7a75fCEHFZJiRhhDWxkVQchOe8gwXBT7ZRA==",
+  "dgSpecHash": "5ItEDW1koOYk8JvZt4Lkra6FO+8iUVm2wd8x7tjLK/9rLJm3DDd0075uBR8U06YsFY4PTdzaGlRcJ04CWtgV1A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Mohamed\\Documents\\.NET\\ContosoUniversity\\ContosoUniversity\\ContosoUniversity.csproj",
+  "projectFilePath": "C:\\Users\\Mohamed\\Documents\\.NET\\EZ-ZAROUALY_Mohamed.NET\\ContosoUniversity\\ContosoUniversity\\ContosoUniversity.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Mohamed\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Mohamed\\.nuget\\packages\\messagepack\\2.1.152\\messagepack.2.1.152.nupkg.sha512",
