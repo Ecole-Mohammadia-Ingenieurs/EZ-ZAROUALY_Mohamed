@@ -9496,23 +9496,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\thex2\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\Mohamed\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\thex2\\Desktop\\test\\moha\\ContosoUniversity.csproj",
+      "projectUniqueName": "C:\\Users\\Mohamed\\Documents\\.NET\\EZ-ZAROUALY_Mohamed.NET\\ContosoUniversity\\ContosoUniversity\\ContosoUniversity.csproj",
       "projectName": "ContosoUniversity",
-      "projectPath": "C:\\Users\\thex2\\Desktop\\test\\moha\\ContosoUniversity.csproj",
-      "packagesPath": "C:\\Users\\thex2\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\thex2\\Desktop\\test\\moha\\obj\\",
+      "projectPath": "C:\\Users\\Mohamed\\Documents\\.NET\\EZ-ZAROUALY_Mohamed.NET\\ContosoUniversity\\ContosoUniversity\\ContosoUniversity.csproj",
+      "packagesPath": "C:\\Users\\Mohamed\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Mohamed\\Documents\\.NET\\EZ-ZAROUALY_Mohamed.NET\\ContosoUniversity\\ContosoUniversity\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\thex2\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Mohamed\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
