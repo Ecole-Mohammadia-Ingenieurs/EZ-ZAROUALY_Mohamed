@@ -31,5 +31,6 @@ namespace ContosoUniversity.Models
         }
 
         public ICollection<Enrollment> Enrollments { get; set; }
+   
     }
 }

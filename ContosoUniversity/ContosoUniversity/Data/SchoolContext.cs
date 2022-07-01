@@ -15,7 +15,7 @@ namespace ContosoUniversity.Data
         public DbSet<Department> Departments { get; set; }
         public DbSet<Instructor> Instructors { get; set; }
         public DbSet<OfficeAssignment> OfficeAssignments { get; set; }
-
+        public DbSet<Stage> Stages { get; set; }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<Course>().ToTable(nameof(Course))
@@ -23,6 +23,11 @@ namespace ContosoUniversity.Data
                 .WithMany(i => i.Courses);
             modelBuilder.Entity<Student>().ToTable(nameof(Student));
             modelBuilder.Entity<Instructor>().ToTable(nameof(Instructor));
+            modelBuilder.Entity<Stage>().ToTable(nameof(Stage))
+                .HasOne(c => c.Student);
+              
         }
+
+        
     }
 }

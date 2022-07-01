@@ -274,7 +274,10 @@ namespace ContosoUniversity.Data
                     }
             };
 
+            
+
             context.AddRange(enrollments);
+           
             context.SaveChanges();
         }
     }

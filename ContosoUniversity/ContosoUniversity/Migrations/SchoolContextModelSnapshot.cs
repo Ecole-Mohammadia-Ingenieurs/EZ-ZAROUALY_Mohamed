@@ -144,6 +144,35 @@ namespace ContosoUniversity.Migrations
                     b.ToTable("OfficeAssignments");
                 });
 
+            modelBuilder.Entity("ContosoUniversity.Models.Stage", b =>
+                {
+                    b.Property<int>("StageID")
+                        .HasColumnType("int");
+
+                    b.Property<int>("DepartmentID")
+                        .HasColumnType("int");
+
+                    b.Property<int?>("EncadrantID")
+                        .HasColumnType("int");
+
+                    b.Property<int?>("StudentID")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Title")
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)");
+
+                    b.HasKey("StageID");
+
+                    b.HasIndex("DepartmentID");
+
+                    b.HasIndex("EncadrantID");
+
+                    b.HasIndex("StudentID");
+
+                    b.ToTable("Stage", (string)null);
+                });
+
             modelBuilder.Entity("ContosoUniversity.Models.Student", b =>
                 {
                     b.Property<int>("ID")
@@ -234,6 +263,29 @@ namespace ContosoUniversity.Migrations
                         .IsRequired();
 
                     b.Navigation("Instructor");
+                });
+
+            modelBuilder.Entity("ContosoUniversity.Models.Stage", b =>
+                {
+                    b.HasOne("ContosoUniversity.Models.Department", "Department")
+                        .WithMany()
+                        .HasForeignKey("DepartmentID")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("ContosoUniversity.Models.Instructor", "Encadrant")
+                        .WithMany()
+                        .HasForeignKey("EncadrantID");
+
+                    b.HasOne("ContosoUniversity.Models.Student", "Student")
+                        .WithMany()
+                        .HasForeignKey("StudentID");
+
+                    b.Navigation("Department");
+
+                    b.Navigation("Encadrant");
+
+                    b.Navigation("Student");
                 });
 
             modelBuilder.Entity("CourseInstructor", b =>

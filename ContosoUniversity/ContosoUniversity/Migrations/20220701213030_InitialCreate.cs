@@ -100,6 +100,37 @@ namespace ContosoUniversity.Migrations
                 });
 
             migrationBuilder.CreateTable(
+                name: "Stage",
+                columns: table => new
+                {
+                    StageID = table.Column<int>(type: "int", nullable: false),
+                    Title = table.Column<string>(type: "nvarchar(50)", maxLength: 50, nullable: true),
+                    DepartmentID = table.Column<int>(type: "int", nullable: false),
+                    StudentID = table.Column<int>(type: "int", nullable: true),
+                    EncadrantID = table.Column<int>(type: "int", nullable: true)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Stage", x => x.StageID);
+                    table.ForeignKey(
+                        name: "FK_Stage_Departments_DepartmentID",
+                        column: x => x.DepartmentID,
+                        principalTable: "Departments",
+                        principalColumn: "DepartmentID",
+                        onDelete: ReferentialAction.Cascade);
+                    table.ForeignKey(
+                        name: "FK_Stage_Instructor_EncadrantID",
+                        column: x => x.EncadrantID,
+                        principalTable: "Instructor",
+                        principalColumn: "ID");
+                    table.ForeignKey(
+                        name: "FK_Stage_Student_StudentID",
+                        column: x => x.StudentID,
+                        principalTable: "Student",
+                        principalColumn: "ID");
+                });
+
+            migrationBuilder.CreateTable(
                 name: "CourseInstructor",
                 columns: table => new
                 {
@@ -174,6 +205,21 @@ namespace ContosoUniversity.Migrations
                 name: "IX_Enrollments_StudentID",
                 table: "Enrollments",
                 column: "StudentID");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_Stage_DepartmentID",
+                table: "Stage",
+                column: "DepartmentID");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_Stage_EncadrantID",
+                table: "Stage",
+                column: "EncadrantID");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_Stage_StudentID",
+                table: "Stage",
+                column: "StudentID");
         }
 
         protected override void Down(MigrationBuilder migrationBuilder)
@@ -186,6 +232,9 @@ namespace ContosoUniversity.Migrations
 
             migrationBuilder.DropTable(
                 name: "OfficeAssignments");
+
+            migrationBuilder.DropTable(
+                name: "Stage");
 
             migrationBuilder.DropTable(
                 name: "Course");
